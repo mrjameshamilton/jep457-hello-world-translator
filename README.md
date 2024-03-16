@@ -3,12 +3,12 @@
 [JEP 457 Class-File API](https://openjdk.org/jeps/457) is a preview API to provide a standard API for parsing, 
 generating, and transforming Java class files.
 
-The example here shows how easy it is to use to create read and modify an existing class file. 
-The example modifies a single LDC instruction to change the constant printed from "Hello World" to
+The example here shows how easy it is to use to read and modify an existing class file. 
+The example modifies a single `ldc` instruction to change the constant printed from "Hello World" to
 another string provided as an argument.
 
 For examples of generating a class from scratch see [JEP457 Hello World](https://github.com/mrjameshamilton/jep457-hello-world)
-or [JEP457 Brainf*ck Compiler](https://github.com/mrjameshamilton/bf-jep457).
+and [JEP457 Brainf*ck Compiler](https://github.com/mrjameshamilton/bf-jep457).
 
 # Building
 
