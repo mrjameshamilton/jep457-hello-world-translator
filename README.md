@@ -12,11 +12,11 @@ and [JEP457 Brainf*ck Compiler](https://github.com/mrjameshamilton/bf-jep457).
 
 # Building
 
-You'll need JDK 22 which is currently available as an early access version.
-The easiest way to install this is with [SDK man](https://sdkman.io/):
+You'll need JDK 22.
+The easiest way to install this on Linux is with [SDK man](https://sdkman.io/):
 
 ```shell
-sdk install java 22.ea.36-open
+sdk install java 22-open
 ```
 
 If you have Java 22, you can then execute the `run.sh` script which will
